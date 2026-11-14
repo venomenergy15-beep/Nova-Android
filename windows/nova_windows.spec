@@ -1,1 +1,115 @@
-IyAtKi0gbW9kZTogcHl0aG9uIDsgY29kaW5nOiB1dGYtOCAtKi0KIiIiClB5SW5zdGFsbGVyIGJ1aWxkIHNwZWMgZm9yIE5PVkEgZm9yIFdpbmRvd3MgNyAoMzItYml0KS4KClJlcHJvZHVjZXMgdGhlIHByZXZpb3VzIGNvbW1hbmQtbGluZSBidWlsZCBleGFjdGx5OgogICAgcHlpbnN0YWxsZXIgLS1vbmVmaWxlIC0td2luZG93ZWQgLS1uYW1lIE5PVkEtV2luZG93cy03IHdpbmRvd3Mvbm92YV93aW5kb3dzLnB5Ci4uLndpdGggb25lIGFkZGl0aW9uOiB0aGUgVW5pdmVyc2FsIEMgUnVudGltZSAoVUNSVCkgRExMcyBhcmUgYnVuZGxlZCBpbnRvCnRoZSBleGUgc28gaXQgcnVucyBvbiBXaW5kb3dzIDcgbWFjaGluZXMgdGhhdCBuZXZlciByZWNlaXZlZCB1cGRhdGUgS0IyOTk5MjI2Cm9yIHRoZSBWaXN1YWwgQysrIFJlZGlzdHJpYnV0YWJsZS4KCldoeTogUHl0aG9uIDMuOCBleHRlbnNpb24gbW9kdWxlcyAoX3NvY2tldCwgX3RraW50ZXIsIC4uLikgbGluayBhZ2FpbnN0IHRoZQpVQ1JUIChhcGktbXMtd2luLWNydC0qLmRsbCAtPiB1Y3J0YmFzZS5kbGwsIHBsdXMgdmNydW50aW1lMTQwLmRsbCkuIFRoYXQKcnVudGltZSBzaGlwcyB3aXRoIFdpbmRvd3MgMTAgYnV0IG5vdCB3aXRoIGFuIHVucGF0Y2hlZCBXaW5kb3dzIDcsIHNvIG9uIHN1Y2gKYSBtYWNoaW5lIHRoZSBleGUgZGllZCBhdCBzdGFydHVwIHdpdGg6CiAgICBETEwgbG9hZCBmYWlsZWQgd2hpbGUgaW1wb3J0aW5nIF9zb2NrZXQ6IFRoZSBwYXJhbWV0ZXIgaXMgaW5jb3JyZWN0LgpCdW5kbGluZyB0aGUgRExMcyBtYWtlcyB0aGUgZXhlIHNlbGYtY29udGFpbmVkOiB0aGUgUHlJbnN0YWxsZXIgYm9vdGxvYWRlcgpleHRyYWN0cyB0aGVtIG5leHQgdG8gdGhlIGFwcCBhbmQgdGhleSB0YWtlIHByZWNlZGVuY2Ugb3ZlciB0aGUgc3lzdGVtJ3MKKHN0YWxlIG9yIG1pc3NpbmcpIGNvcGllcy4KClRoZSBETExzIGFyZSBjb2xsZWN0ZWQgYXQgYnVpbGQgdGltZSBmcm9tIHRoZSBydW5uZXIncyBTeXNXT1c2NCBkaXJlY3RvcnkKKDMyLWJpdCBETExzIG9uIGEgNjQtYml0IHJ1bm5lciksIGZhbGxpbmcgYmFjayB0byBTeXN0ZW0zMiAoMzItYml0IHJ1bm5lcikuCkFueSBETEwgdGhhdCBpcyBub3QgcHJlc2VudCBpcyBza2lwcGVkIHNpbGVudGx5OyBpZiBub25lIGFyZSBmb3VuZCB0aGUgYnVpbGQKc3RpbGwgc3VjY2VlZHMgYW5kIGEgd2FybmluZyBpcyBwcmludGVkIHRvIHRoZSBidWlsZCBsb2cuCiIiIgoKaW1wb3J0IGdsb2IKaW1wb3J0IG9zCgojIERpcmVjdG9yeSBjb250YWluaW5nIHRoaXMgc3BlYyBmaWxlICh3aW5kb3dzLyksIHJlc29sdmVkIHJvYnVzdGx5IHdoZXRoZXIKIyB0aGUgYnVpbGQgaXMgcnVuIGZyb20gdGhlIHJlcG8gcm9vdCBvciBmcm9tIGluc2lkZSB3aW5kb3dzLy4KdHJ5OgogICAgU1BFQ19ESVIgPSBvcy5wYXRoLmRpcm5hbWUob3MucGF0aC5hYnNwYXRoKF9fZmlsZV9fKSkKZXhjZXB0IE5hbWVFcnJvcjogICMgcHJhZ21hOiBubyBjb3ZlciAtIF9fZmlsZV9fIGlzIG5vcm1hbGx5IGRlZmluZWQKICAgICMgRmFsbCBiYWNrIHRvIGxvY2F0aW5nIHRoZSBzY3JpcHQgcmVsYXRpdmUgdG8gdGhlIHdvcmtpbmcgZGlyZWN0b3J5LgogICAgaWYgb3MucGF0aC5pc2ZpbGUob3MucGF0aC5qb2luKCd3aW5kb3dzJywgJ25vdmFfd2luZG93cy5weScpKToKICAgICAgICBTUEVDX0RJUiA9IG9zLnBhdGguYWJzcGF0aCgnd2luZG93cycpCiAgICBlbHNlOgogICAgICAgIFNQRUNfRElSID0gb3MucGF0aC5hYnNwYXRoKCcuJykKCgpkZWYgX3VjcnRfZGxscygpOgogICAgIiIiUmV0dXJuIFsoc291cmNlX3BhdGgsICcuJyldIGZvciB0aGUgVUNSVCBETExzIHRvIGJ1bmRsZS4KCiAgICBTeXNXT1c2NCBpcyBjaGVja2VkIGZpcnN0IGJlY2F1c2Ugb24gYSA2NC1iaXQgcnVubmVyIGl0IGhvbGRzIHRoZSAzMi1iaXQKICAgIERMTHMgdGhpcyAzMi1iaXQgYnVpbGQgbmVlZHM7IFN5c3RlbTMyIG9uIHN1Y2ggYSBtYWNoaW5lIGhvbGRzIHRoZQogICAgNjQtYml0IGNvcGllcywgd2hpY2ggbXVzdCBOT1QgYmUgYnVuZGxlZC4gT24gYSAzMi1iaXQgcnVubmVyIFN5c1dPVzY0CiAgICBkb2VzIG5vdCBleGlzdCBhbmQgU3lzdGVtMzIgaG9sZHMgdGhlIDMyLWJpdCBETExzLgogICAgIiIiCiAgICBzeXN0ZW1fcm9vdCA9IG9zLmVudmlyb24uZ2V0KCdTeXN0ZW1Sb290JywgcidDOlxXaW5kb3dzJykKICAgIGZvbGRlcnMgPSBbCiAgICAgICAgb3MucGF0aC5qb2luKHN5c3RlbV9yb290LCAnU3lzV09XNjQnKSwKICAgICAgICBvcy5wYXRoLmpvaW4oc3lzdGVtX3Jvb3QsICdTeXN0ZW0zMicpLAogICAgXQogICAgcGF0dGVybnMgPSAoJ2FwaS1tcy13aW4tY3J0LSouZGxsJywgJ3VjcnRiYXNlLmRsbCcsICd2Y3J1bnRpbWUxNDAuZGxsJykKICAgIGZvdW5kID0gW10KICAgIHNlZW4gPSBzZXQoKQogICAgZm9yIGZvbGRlciBpbiBmb2xkZXJzOgogICAgICAgIGZvciBwYXR0ZXJuIGluIHBhdHRlcm5zOgogICAgICAgICAgICBmb3IgcGF0aCBpbiBzb3J0ZWQoZ2xvYi5nbG9iKG9zLnBhdGguam9pbihmb2xkZXIsIHBhdHRlcm4pKSk6CiAgICAgICAgICAgICAgICBuYW1lID0gb3MucGF0aC5iYXNlbmFtZShwYXRoKS5sb3dlcigpCiAgICAgICAgICAgICAgICBpZiBuYW1lIGluIHNlZW46CiAgICAgICAgICAgICAgICAgICAgY29udGludWUKICAgICAgICAgICAgICAgIHNlZW4uYWRkKG5hbWUpCiAgICAgICAgICAgICAgICBmb3VuZC5hcHBlbmQoKHBhdGgsICcuJykpCiAgICBpZiBub3QgZm91bmQ6CiAgICAgICAgcHJpbnQoJ1dBUk5JTkc6IG5vIFVDUlQgRExMcyBmb3VuZCB1bmRlciAlczsgJwogICAgICAgICAgICAgICd0aGUgZXhlIHdpbGwgbm90IGJlIHNlbGYtY29udGFpbmVkIG9uIFdpbmRvd3MgNycgJSBzeXN0ZW1fcm9vdCkKICAgIGVsc2U6CiAgICAgICAgcHJpbnQoJ0J1bmRsaW5nICVkIFVDUlQgRExMKHMpOiAlcycKICAgICAgICAgICAgICAlIChsZW4oZm91bmQpLCAnLCAnLmpvaW4oc29ydGVkKHNlZW4pKSkpCiAgICByZXR1cm4gZm91bmQKCgpibG9ja19jaXBoZXIgPSBOb25lCgoKYSA9IEFuYWx5c2lzKAogICAgW29zLnBhdGguam9pbihTUEVDX0RJUiwgJ25vdmFfd2luZG93cy5weScpXSwKICAgIHBhdGhleD1bU1BFQ19ESVJdLAogICAgYmluYXJpZXM9X3VjcnRfZGxscygpLAogICAgZGF0YXM9W10sCiAgICBoaWRkZW5pbXBvcnRzPVtdLAogICAgaG9va3NwYXRoPVtdLAogICAgaG9va3Njb25maWc9e30sCiAgICBydW50aW1lX2hvb2tzPVtdLAogICAgZXhjbHVkZXM9W10sCiAgICB3aW5fbm9fcHJlZmVyX3JlZGlyZWN0cz1GYWxzZSwKICAgIHdpbl9wcml2YXRlX2Fzc2VtYmxpZXM9RmFsc2UsCiAgICBjaXBoZXI9YmxvY2tfY2lwaGVyLAogICAgbm9hcmNoaXZlPUZhbHNlLAopCnB5eiA9IFBZWihhLnB1cmUsIGEuemlwcGVkX2RhdGEsIGNpcGhlcj1ibG9ja19jaXBoZXIpCgpleGUgPSBFWEUoCiAgICBweXosCiAgICBhLnNjcmlwdHMsCiAgICBhLmJpbmFyaWVzLAogICAgYS56aXBmaWxlcywKICAgIGEuZGF0YXMsCiAgICBbXSwKICAgIG5hbWU9J05PVkEtV2luZG93cy03JywKICAgIGRlYnVnPUZhbHNlLAogICAgYm9vdGxvYWRlcl9pZ25vcmVfc2lnbmFscz1GYWxzZSwKICAgIHN0cmlwPUZhbHNlLAogICAgdXB4PUZhbHNlLAogICAgdXB4X2V4Y2x1ZGU9W10sCiAgICBydW50aW1lX3RtcGRpcj1Ob25lLAogICAgY29uc29sZT1GYWxzZSwKICAgIGRpc2FibGVfd2luZG93ZWRfdHJhY2ViYWNrPUZhbHNlLAogICAgYXJndl9lbXVsYXRpb249RmFsc2UsCiAgICB0YXJnZXRfYXJjaD1Ob25lLAogICAgY29kZXNpZ25faWRlbnRpdHk9Tm9uZSwKICAgIGVudGl0bGVtZW50c19maWxlPU5vbmUsCiAgICBpY29uPU5vbmUsCikK
+# -*- mode: python ; coding: utf-8 -*-
+"""
+PyInstaller build spec for NOVA for Windows 7 (32-bit).
+
+Reproduces the previous command-line build exactly:
+    pyinstaller --onefile --windowed --name NOVA-Windows-7 windows/nova_windows.py
+...with one addition: the Universal C Runtime (UCRT) DLLs are bundled into
+the exe so it runs on Windows 7 machines that never received update KB2999226
+or the Visual C++ Redistributable.
+
+Why: Python 3.8 extension modules (_socket, _tkinter, ...) link against the
+UCRT (api-ms-win-crt-*.dll -> ucrtbase.dll, plus vcruntime140.dll). That
+runtime ships with Windows 10 but not with an unpatched Windows 7, so on such
+a machine the exe died at startup with:
+    DLL load failed while importing _socket: The parameter is incorrect.
+Bundling the DLLs makes the exe self-contained: the PyInstaller bootloader
+extracts them next to the app and they take precedence over the system's
+(stale or missing) copies.
+
+The DLLs are collected at build time from the runner's SysWOW64 directory
+(32-bit DLLs on a 64-bit runner), falling back to System32 (32-bit runner).
+Any DLL that is not present is skipped silently; if none are found the build
+still succeeds and a warning is printed to the build log.
+"""
+
+import glob
+import os
+
+# Directory containing this spec file (windows/), resolved robustly whether
+# the build is run from the repo root or from inside windows/.
+try:
+    SPEC_DIR = os.path.dirname(os.path.abspath(__file__))
+except NameError:  # pragma: no cover - __file__ is normally defined
+    # Fall back to locating the script relative to the working directory.
+    if os.path.isfile(os.path.join('windows', 'nova_windows.py')):
+        SPEC_DIR = os.path.abspath('windows')
+    else:
+        SPEC_DIR = os.path.abspath('.')
+
+
+def _ucrt_dlls():
+    """Return [(source_path, '.')] for the UCRT DLLs to bundle.
+
+    SysWOW64 is checked first because on a 64-bit runner it holds the 32-bit
+    DLLs this 32-bit build needs; System32 on such a machine holds the
+    64-bit copies, which must NOT be bundled. On a 32-bit runner SysWOW64
+    does not exist and System32 holds the 32-bit DLLs.
+    """
+    system_root = os.environ.get('SystemRoot', r'C:\Windows')
+    folders = [
+        os.path.join(system_root, 'SysWOW64'),
+        os.path.join(system_root, 'System32'),
+    ]
+    patterns = ('api-ms-win-crt-*.dll', 'ucrtbase.dll', 'vcruntime140.dll')
+    found = []
+    seen = set()
+    for folder in folders:
+        for pattern in patterns:
+            for path in sorted(glob.glob(os.path.join(folder, pattern))):
+                name = os.path.basename(path).lower()
+                if name in seen:
+                    continue
+                seen.add(name)
+                found.append((path, '.'))
+    if not found:
+        print('WARNING: no UCRT DLLs found under %s; '
+              'the exe will not be self-contained on Windows 7' % system_root)
+    else:
+        print('Bundling %d UCRT DLL(s): %s'
+              % (len(found), ', '.join(sorted(seen))))
+    return found
+
+
+block_cipher = None
+
+
+a = Analysis(
+    [os.path.join(SPEC_DIR, 'nova_windows.py')],
+    pathex=[SPEC_DIR],
+    binaries=_ucrt_dlls(),
+    datas=[],
+    hiddenimports=[],
+    hookspath=[],
+    hooksconfig={},
+    runtime_hooks=[],
+    excludes=[],
+    win_no_prefer_redirects=False,
+    win_private_assemblies=False,
+    cipher=block_cipher,
+    noarchive=False,
+)
+pyz = PYZ(a.pure, a.zipped_data, cipher=block_cipher)
+
+exe = EXE(
+    pyz,
+    a.scripts,
+    a.binaries,
+    a.zipfiles,
+    a.datas,
+    [],
+    name='NOVA-Windows-7',
+    debug=False,
+    bootloader_ignore_signals=False,
+    strip=False,
+    upx=False,
+    upx_exclude=[],
+    runtime_tmpdir=None,
+    console=False,
+    disable_windowed_traceback=False,
+    argv_emulation=False,
+    target_arch=None,
+    codesign_identity=None,
+    entitlements_file=None,
+    icon=None,
+)
