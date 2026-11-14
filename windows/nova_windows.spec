@@ -17,6 +17,12 @@ Bundling the DLLs makes the exe self-contained: the PyInstaller bootloader
 extracts them next to the app and they take precedence over the system's
 (stale or missing) copies.
 
+ucrtbase.dll itself forwards to the api-ms-win-core-*.dll API-set DLLs
+(e.g. api-ms-win-core-sysinfo-l1-2-0.dll), which are also absent from an
+unpatched Windows 7 — the first UCRT-bundled build fixed the _socket error
+but then failed asking for one of those. So the whole api-ms-win-*.dll set
+is bundled, not just the crt ones.
+
 The DLLs are collected at build time from the runner's SysWOW64 directory
 (32-bit DLLs on a 64-bit runner), falling back to System32 (32-bit runner).
 Any DLL that is not present is skipped silently; if none are found the build
@@ -39,7 +45,7 @@ except NameError:  # pragma: no cover - __file__ is normally defined
 
 
 def _ucrt_dlls():
-    """Return [(source_path, '.')] for the UCRT DLLs to bundle.
+    """Return [(source_path, '.')] for the UCRT + API-set DLLs to bundle.
 
     SysWOW64 is checked first because on a 64-bit runner it holds the 32-bit
     DLLs this 32-bit build needs; System32 on such a machine holds the
@@ -51,7 +57,9 @@ def _ucrt_dlls():
         os.path.join(system_root, 'SysWOW64'),
         os.path.join(system_root, 'System32'),
     ]
-    patterns = ('api-ms-win-crt-*.dll', 'ucrtbase.dll', 'vcruntime140.dll')
+    # api-ms-win-*.dll covers both the crt set (api-ms-win-crt-*.dll) and
+    # the core set (api-ms-win-core-*.dll) that ucrtbase.dll forwards to.
+    patterns = ('api-ms-win-*.dll', 'ucrtbase.dll', 'vcruntime140.dll')
     found = []
     seen = set()
     for folder in folders:
@@ -66,7 +74,7 @@ def _ucrt_dlls():
         print('WARNING: no UCRT DLLs found under %s; '
               'the exe will not be self-contained on Windows 7' % system_root)
     else:
-        print('Bundling %d UCRT DLL(s): %s'
+        print('Bundling %d UCRT/API-set DLL(s): %s'
               % (len(found), ', '.join(sorted(seen))))
     return found
 
