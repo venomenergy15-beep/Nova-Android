@@ -61,7 +61,10 @@ jobs:
         run: pip install "pyinstaller==5.13.2"
 
       - name: Build Windows exe
-        run: pyinstaller --onefile --windowed --name NOVA-Windows-7 windows/nova_windows.py
+        # The spec bundles the Universal C Runtime DLLs (api-ms-win-crt-*,
+        # ucrtbase.dll, vcruntime140.dll) so the exe runs on Windows 7
+        # machines that never got KB2999226 / the VC++ Redistributable.
+        run: pyinstaller windows/nova_windows.spec
 
       - name: Upload exe
         uses: actions/upload-artifact@v4
